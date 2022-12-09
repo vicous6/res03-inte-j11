@@ -146,9 +146,125 @@ figure {
     niveau 5 #72efdd:
 */
 
-#ex3 figure {
-    max-width:40%;
-    max-height:40%;
+
+
+#eq1-1 ,#eq2-1 ,#eq3-1 ,#eq4-1  {
+   animation-name : niveau1;
+    animation-delay: 0.25s;
+    animation-duration: 2s;
+     animation-fill-mode:forwards;
 }
 
+
+#eq1-2 ,#eq2-2 ,#eq3-2 ,#eq4-2  {
+   animation-name : niveau2;
+    animation-delay: 0.50s;
+    animation-duration: 2s;
+     animation-fill-mode:forwards;
+}
+#eq1-3 ,#eq2-3 ,#eq3-3  {
+   animation-name : niveau3;
+    animation-delay: 0.50s;
+    animation-duration: 2s;
+     animation-fill-mode:forwards;
+}
+
+ #eq2-4 , #eq3-4   {
+   animation-name : niveau4;
+    animation-delay: 0.75s;
+    animation-duration: 2s;
+     animation-fill-mode:forwards;
+}
+
+#eq2-5 {
+   animation-name : niveau5;
+    animation-delay: 1s;
+    animation-duration: 2s;
+     animation-fill-mode:forwards;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes niveau1 {
+    from {
+       fill: #ffffff;
+       
+    }
+    to {
+     fill: #7400b8;
+        
+    }
+}
+@keyframes niveau2 {
+    from {
+        fill: #ffffff;
+       
+    }
+    to {
+     fill: #5e60ce;
+        
+    }
+}
+@keyframes niveau3 {
+    from {
+       fill: #ffffff;
+       
+    }
+    to {
+     fill: #4ea8de;
+        
+    }
+}
+@keyframes niveau4 {
+    from {
+      fill: #ffffff;
+       
+    }
+    to {
+     fill: #56cfe1;
+        
+    }
+}
+@keyframes niveau5 {
+    from {
+       fill: #ffffff;
+       
+    }
+    to {
+     fill: #72efdd;
+        
+    }
+}
+
+
 /* EXERCICE 4 */
+.st23 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*.st23 {*/
+/*  stroke-dasharray: 400;*/
+/*  animation: dash 5s linear;*/
+/*}*/
+
+/*@keyframes dash {*/
+/*  to {*/
+/*    stroke-dashoffset: 1000;*/
+/*  }*/
+/*}*/
+
