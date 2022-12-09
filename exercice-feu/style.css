@@ -1,0 +1,60 @@
+body{
+    
+    height:100vh;
+}
+figure
+{
+    height:100%;
+}
+svg{
+    height:100%;
+}
+
+
+
+#truc3 {
+   animation-name : red;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    
+}
+#truc2 {
+   animation-name : orange;
+    animation-delay: 6s;
+    animation-duration: 5s;
+   
+}
+#truc1 {
+   animation-name : green;
+    animation-delay: 11s;
+    animation-duration: 5s;
+ 
+    
+}
+@keyframes red {
+  1%{
+      fill: #FF0000
+  }
+    to {
+     fill: #FF0000;
+        
+    }
+}
+@keyframes orange {
+   1%{
+      fill:#ff7f00
+  }
+    to {
+     fill: #ff7f00;
+        
+    }
+}
+@keyframes green {
+   1%{
+      fill: #00FF00
+  }
+    to {
+     fill: #00FF00;
+        
+    }
+}

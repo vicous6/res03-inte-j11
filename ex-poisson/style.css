@@ -18,7 +18,7 @@ svg {
      
     animation-name : move-fish;
     animation-delay: 1s;
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     
     
@@ -54,6 +54,45 @@ svg {
         transform:translateX(0vh) rotate(0turn)
    }
 }
+ 
+ 
+ .petite{
+    transform-origin:60% 40%;
+     
+    animation-name : machin;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.moyen{
+    transform-origin:60% 40%;
+     
+    animation-name : machin;
+    animation-delay: 1.2s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.gros{
+    transform-origin:60% 40%;
+     
+    animation-name : machin;
+    animation-delay: 1.3s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes machin {
+    to {
+        transform:translateY(-100vh)
+    }
+    
+}
+ 
  
  
  
